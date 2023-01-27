@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #181f2c;
+    font-family: "Kavoon";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    color: #000000;
+
+}
+
+
+.text-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+.quiz-container {
+    background-color: #1980b8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px #ffffff;
+    width: 600px;
+    overflow: hidden;
+}
+
+.quiz-header {
+    padding: 64px;
+}
+
+
+h2 {
+    padding: 16px;
+    text-align: center;
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+ul li {
+    font-size: large;
+    margin: 16px;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    background-color: #070705;
+    color: #fff;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: inherit;
+    padding: 16px;
+}
+
+button:hover {
+    background-color: #5de28e;
+}
+
+button:focus {
+    outline: none;
+    background-color: #67bfea;
+}
